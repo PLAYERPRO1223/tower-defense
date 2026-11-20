@@ -1,0 +1,29 @@
+{
+    "name": "tower defense",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "arcade-tile-scanner": "github:riknoll/arcade-tile-scanner#v0.0.1",
+        "arcade-text": "github:microsoft/arcade-text#v1.3.0",
+        "arcade-tilemap-a-star": "github:jwunderl/arcade-tilemap-a-star#v0.4.0"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "tilemap.g.jres",
+        "tilemap.g.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "4.1.28",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj"
+}
